@@ -1,0 +1,22 @@
+body{
+background-color: #e4e978;
+
+}
+
+article{
+background-color:  #f2f4c0;
+width: 700px;
+border: 1px solid #b2ad7d;
+margin: 15px 10px;
+padding: 5px 15px;
+}
+
+.second, .third{
+font-style: italic;
+color: #5c6e91;
+}
+
+span{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
