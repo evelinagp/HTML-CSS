@@ -1,0 +1,38 @@
+@import 'https://fonts.googleapis.com/css?family=Helvetica';
+@import 'https://fonts.googleapis.com/css?family=Georgia';
+
+html{
+    font-family: Helvetica, sans-serif;
+}
+
+h1{
+        font-family: Georgia, serif;
+    
+}
+ul{
+    list-style-type: none;
+}
+li{
+    display: inline-block;
+}
+
+span{
+    padding-right: 60px;
+    margin-left: -40px;
+    font-size: 40px;
+    font-weight: 700;
+
+}
+nav{
+    display: inline-block;
+}
+
+nav a{
+color: #45a845;
+text-decoration: none;
+padding-right: 30px;
+}
+
+
+
+
