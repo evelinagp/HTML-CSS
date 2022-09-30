@@ -1,0 +1,14 @@
+body {
+    background-color: #EEE;
+    padding: 5rem;  
+  
+}
+
+body > * {
+    padding: 2rem;
+    background-color: #FFF;
+    border-radius: 0.4rem;
+    color: #000;
+}
+
+
