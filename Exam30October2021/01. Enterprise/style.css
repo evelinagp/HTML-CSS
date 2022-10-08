@@ -1,0 +1,63 @@
+body{
+    font-family: Helvetica, sans-serif;
+}
+
+#about{
+    width: 95%;
+    max-width: 1000px;
+    margin: 32px auto;
+
+    padding: 48px; 
+    border-radius: 8px;
+    background-color: #f6f8f9;
+    position: relative;
+}
+#about .info{
+    width: 40%;
+}
+.subtitle{
+    font-size: 12px;
+    font-weight: 300;
+    margin-bottom: 12px;
+
+}
+.title{
+    font-size: 32px;
+    font-weight: 300;  
+    margin-bottom: 18px;
+
+}
+.desc{
+    font-size: 16px;
+    color: #9fa7ad;
+    margin-bottom: 24px;
+    letter-spacing: 1px;
+
+}
+button{
+    border-radius: 4px;
+    padding: 8px 16px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 16px;
+
+}
+
+.btn-primary{
+    background-color: #786eff;
+    border: 2px solid #786eff;
+    color: white;
+    margin-right: 12px;
+}
+
+.btn{
+    background-color: transparent;
+    color: black;
+}
+img{
+        width: 30%;
+        position: absolute;
+        bottom: 0px;
+        right: 48px;
+}
