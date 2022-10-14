@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+/* Poppins for the headings (https://fonts.google.com/specimen/) 
+•	Use font Open Sans for the paragraphs: (https://fonts.google.com/specimen/) */
+
+
+/*First Section*/
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Poppins', sans-serif;
+    ;
+}
+
+section {
+    padding: 175px 230px;
+}
+
+/*header*/
+
+.header {
+    display: flex;
+    align-items: center;
+    padding-inline-start: 230px;
+}
+
+.header li {
+    list-style-type: none;
+
+}
+
+.header li:not(:first-child) a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #072454;
+    font-weight: bold;
+    margin-right: 50px;
+}
+
+.logo {
+    margin-right: 600px;
+}
+
+/*main*/
+.hero {
+    height: 80vh;
+    position: relative;
+    background-image: url(images/header-bg.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.hero .content:not(:last-child) {
+    width: 28%;
+    color: #fff;
+
+}
+
+.hero .content {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero .content h1 {
+    font-size: 50px;
+    font-weight: 100;
+}
+
+.hero .content h2 {
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.hero .content p {
+    font-size: 13px;
+
+}
+
+.hero img {
+    width: 60%;
+    position: absolute;
+    top: 63px;
+    right: 200px;
+}
+
+.btn-primary-white {
+    padding: 15px 45px;
+    font-size: 14px;
+    background-color: #fff;
+    color: #ff3300;
+    font-weight: 700;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 50px;
+    width: fit-content;
+    letter-spacing: 1px;
+}
+
+/*Second Section*/
+.services {
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.services h3 {
+    font-size: 34px;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.services h4 {
+    font-size: 18px;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.services p {
+    font-size: 12px;
+    color: #919193;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.services-headings {
+    width: 75%;
+    margin: auto;
+}
+
+.services-headings p {
+    width: 80%;
+    padding-left: 190px;
+
+}
+
+.service {
+    display: block;
+    width: 25%;
+    flex-direction: row;
+    margin-block: 20px;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ffccc8;
+    border-radius: 8px;
+    padding: 60px 20px;
+}
+
+.service img {
+    margin: auto;
+    background-image: url(images/service-bg.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 25px;
+    width: max-content;
+}
+
+/*Third section*/
+.care {
+    height: 80vh;
+    position: relative;
+}
+
+.care img {
+    width: 35%;
+    position: relative;
+
+}
+
+
+.care .content:not(:first-child) {
+    width: 25%;
+    color: black;
+
+}
+
+.care .content {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 60%;
+    position: absolute;
+    top: 260px;
+    right: 430px;
+}
+
+.content h1 {
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.content h2 {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.content p {
+    font-size: 13px;
+
+}
+
+
+.care .btn-primary {
+    padding: 10px 40px;
+    font-size: 12px;
+    background-color: #ff3300;
+    color: #fff;
+    font-weight: bold;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 50px;
+    width: fit-content;
+    letter-spacing: 1px;
+}
+
+/*Fourth section*/
+
+.contact-us {
+    height: 70vh;
+    position: relative;
+    background-image: url(images/cats-bg.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    letter-spacing: 1px;
+
+}
+
+.contact-us-content {
+    /*  display: flex;
+    flex-wrap: wrap;*/
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    color: #fff;
+
+}
+
+.contact-us-content h2 {
+    font-size: 40px;
+    font-weight: 900;
+    padding-bottom: 30px;
+}
+
+.contact-us-content h2 {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.contact-us-content p {
+    font-size: 22px;
+    width: 65%;
+    padding-bottom: 60px;
+    margin: auto;
+}
+
+/*Fifth Section*/
+
+.footer {
+    display: flex;
+    padding: 100px 185px;
+    padding-block: 100px;
+    align-items: flex-start;
+    justify-content:space-between;
+    height: 45vh;
+    background-color: #faf9f7;
+}
+
+.footer ul {
+    list-style-type: none;
+}
+
+.footer .column {
+    font-weight: bold;
+    line-height: 2.5;
+    width: 50%;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: #66666d;
+    font-weight: 700;
+}
+.footer ul li a img{
+    text-decoration: none;
+    color: #66666d;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.footer ul li:first-child {
+    text-decoration: none;
+    color: black;
+
+}
+
+
+.footer .column h4 {
+    font-size: 24px;
+    
+}

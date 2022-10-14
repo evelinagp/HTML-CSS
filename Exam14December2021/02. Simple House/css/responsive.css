@@ -1,0 +1,117 @@
+/* TODO: Add the responsive styles here */
+@media screen and (max-width:600px) {
+
+    /*.wrap {
+        color: transparent;
+        text-shadow: 0 0 0.5px #000;
+    }*/
+    .parallax-window {
+        display: flex;
+    }
+
+    .tm-header-inner {
+        display: flex;
+        flex-direction: row;
+            padding-left: 15px;
+    }
+
+   
+    .tm-nav-ul {
+        text-align: right;
+        margin-left: 60px;
+        width: 100%;
+
+    }
+
+    .tm-nav-li {
+        float: right;
+    }
+
+    /*Second Section*/
+    /*  .tm-welcome-section*/
+    .tm-welcome-section h2,
+    .tm-welcome-section p {
+        margin-inline: unset;
+        text-align: center;
+
+    }
+
+    .tm-welcome-section p {
+        font-size: 15px;
+        font-weight: 500;
+        padding-right: unset;
+        text-indent: 20px;
+
+    }
+
+    .tm-site-title,
+    h2.col-12.text-center.tm-section-title {
+        font-size: 2.1rem;
+        font-weight: 500;
+    }
+
+    h2.col-12.text-center.tm-section-title {
+        width: 100%;
+    }
+
+    /*Third Section*/
+    .tm-gallery-page {
+        width: 100%;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-inline: -10px;
+    }
+
+    .tm-gallery {
+        margin-left: 70px;
+    }
+
+    .tm-gallery-title {
+        font-size: 1.3rem;
+        font-weight: bold;
+    }
+
+    .tm-gallery-description {
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .tm-gallery-price {
+        font-weight: 600;
+    }
+
+    .tm-cta-section {
+        width: 100%;
+    }
+
+    .tm-cta-section tm-section tm-container-inner .row {
+        flex-direction: column;
+    }
+
+    /*   .tm-gallery-title:last-child{
+        font-size:1.3rem;
+        font-weight: bold;
+    }*/
+    .tm-mb-45 {
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .tm-btn {
+        display: inline-block;
+        font-size: 14px;
+        font-weight: 600;
+
+    }
+
+    .tm-description-box a:first-child {
+        color: #551a8b;
+        font-weight: 600;
+
+    }
+
+    .tm-footer p {
+        /* font-size: 12px;*/
+
+    }
+}
