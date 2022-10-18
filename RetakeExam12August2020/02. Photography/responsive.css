@@ -1,0 +1,16 @@
+/* TODO: Add media queries */
+.thumbnails {
+    flex-direction: column;
+}
+
+.thumbnails>div {
+    width: 100%;
+}
+
+.thumbnails a img {
+    max-height: 180px;
+    object-fit: cover;
+}
+.thumbnails > div > :last-child {
+    margin-bottom: 36px;
+}
