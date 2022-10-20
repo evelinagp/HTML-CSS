@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+body {
+    font-family: 'PT Serif', serif;
+}
+
+.recipe {
+    display: flex;
+    width: 60%;
+    margin: 50px auto;
+    box-shadow: 5px 5px 15px 5px #474646;
+    background-image: url(image/image1.png);
+    background-repeat: repeat-y;
+    padding: 30px 25px 30px 0;
+}
+
+.content> :not(:first-child) {
+    padding-inline: 25px;
+
+}
+
+.header-title {
+    font-size: 18px;
+    text-align: center;
+    border-bottom: 1px dotted #309830;
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 4px;
+}
+
+.subtitle {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+
+    /*  margin-bottom: 50px;*/
+}
+
+.subtitle h2 {
+    font-size: 14px;
+    font-style: italic;
+    font-weight: normal;
+    margin-top: 5px;
+}
+
+span {
+    color: #3E9F3E;
+    font-weight: bold;
+}
+
+.recipe-products {
+    font-size: 13px;
+    margin-block: 18px;
+}
+
+.recipe-products p {
+    margin-bottom: 0;
+    margin-top: 5px;
+    font-weight: normal;
+
+}
+
+.desc {
+    font-size: 13px;
+    margin-block: 30px;
+}
+
+.img-wrapper {
+    max-width: 100%;
+}
+
+.img img {
+    width: 360px;
+}
+
+table,
+th,
+td {
+    border: 1px solid #309830;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 13px;
+
+}
