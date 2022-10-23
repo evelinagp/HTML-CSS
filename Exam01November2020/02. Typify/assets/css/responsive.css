@@ -1,0 +1,149 @@
+/*@media screen and (max-width:600px) {
+    .banner {
+        padding: 3em 0 0.5em 0;
+    }
+
+    .banner h2 {
+        font-size: 1.3em;
+        line-height: 1.35em;
+        width: 85%;
+    }
+
+    .banner p {
+        font-size: 1em;
+
+    }
+
+    .banner .actions li a {
+        width: 45vh;
+    }
+
+    section.special {
+        display: flex;
+    }
+
+    .wrapper {
+        padding: 2em 0 4em 0;
+    }
+
+    header.major {
+        margin-bottom: 1em;
+    }
+
+    header.major h2 {
+        font-size: 1.2em;
+    }
+
+    .features {
+        display: flex;
+        flex-wrap: unset;
+        flex-direction: column;
+        margin-bottom: -10px;
+    }
+
+    .feature {
+        width: unset;
+        margin-inline: 15px;
+        padding: 2em 1em 0.1em 1em;
+    }
+
+    .wrapper {
+        padding: 2em 0 3em 0;
+    }
+
+    .wrapper.style2 {
+        padding-bottom: 10px;
+
+    }
+
+    .wrapper.style2 input[type="submit"] {
+        width: 60vh;
+    }
+
+
+    .grid-form {
+        display: grid;
+        justify-content: center;
+        flex-wrap: unset;
+    }
+
+    .grid-form .form-control {
+        width: 60vh;
+    }
+
+    .grid-form .form-control.narrow {
+        width: unset;
+    }
+
+    .footer {
+        padding: 2em 0 0em 0;
+
+    }
+
+    .footer:before {
+        left: 8%;
+        width: 85%;
+    }
+}*/
+@media screen and (max-width:600px){
+    .banner h2 {
+       width: 95%;
+       font-size: 1.5em;
+    }
+    
+    .banner {
+        padding: 3em 0 1em 0;
+    }
+
+    ul.actions li {
+        width: 100%;
+    }
+
+    .banner .button.special {
+        width: 95%;
+    }
+
+    .features {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feature {
+        width: 95%;
+        padding: 1em 1em 0.1em 1em;
+    }
+    .wrapper {
+        padding: 3em 0 1em 0;
+    }
+
+    .wrapper > .inner {
+        width: 100%;
+    }
+
+    .wrapper > .inner.narrow {
+        width: 100%;
+    }
+
+    .grid-form {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .grid-form .form-control.narrow, textarea {
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .wrapper.style2 input[type="submit"] {
+        width: 95%;
+    }
+    .footer:before {
+        width: 95%;
+        left: 2.5%;
+    }
+    .footer {
+        padding: 1em 0 1em 0;
+    }
+}
+
