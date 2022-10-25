@@ -1,0 +1,44 @@
+@import 'https://fonts.googleapis.com/css?family=Helvetica';
+@import 'https://fonts.googleapis.com/css?family=Georgia';
+
+html{
+    font-family: Helvetica, sans-serif;
+}
+body{
+    margin: 100px 100px;
+}
+body header{ 
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 2px solid rgb(0,0,0);
+
+}
+
+h1{
+   font-family: Georgia, serif;
+    
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    padding: 0px;
+
+}
+.site-title{
+    font-size: 40px;
+    font-weight: 700;
+    padding-right: 820px;
+
+}
+
+nav a{
+color: rgb(0, 153, 0);
+text-decoration: none;
+padding-right: 30px;
+}
+li {
+    justify-content: space-between;
+}
+
+
+
