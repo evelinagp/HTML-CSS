@@ -1,0 +1,87 @@
+@import 'https://fonts.googleapis.com/css2?family=Poppins:wght@300;';
+@import 'https://fonts.googleapis.com/css2?family=Montserrat:wght@400&wght@500;';
+
+/*First Section*/
+body {
+    font-family: Poppins, sans-serif;
+
+}
+
+h1,
+h2,
+h3 {
+    font-family: Montserrat, sans-serif;
+}
+
+header {
+    text-align: center;
+
+}
+
+header h1 {
+    font-size: 50px;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+header img {
+    width: 9%;
+    margin-top: 20px;
+}
+
+.auto {
+    display: flex;
+    margin: 48px auto;
+    max-width: 1300px;
+    align-items: center;
+}
+
+.auto-content {
+    margin-right: 50px;
+}
+
+.auto-content-title {
+    font-size: 20px;
+    margin-top: 0;
+    line-height: 32px;
+    letter-spacing: 1px;
+    /*font-weight: 500;*/
+}
+
+.auto-content-text {
+    font-size: 18px;
+    color: #939393;
+    margin-bottom: 20px;
+}
+
+.benefits {
+    text-decoration: none;
+    list-style: none;
+    padding-inline-start: 0px;
+
+}
+
+.benefit {
+    display: flex;
+ }
+
+.benefit-img {
+    max-width: 55px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.benefit-img img {
+    width: max-content;
+   }
+
+.benefit-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.benefit-text {
+    font-size: 18px;
+    color: #939393;
+    margin-top: 0;
+}

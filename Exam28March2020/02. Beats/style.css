@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+    justify-content: space-between;
+    margin: 50px 200px;
+
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #A9A9A9;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/*Second*/
+.solo {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 120px;
+}
+
+.solo-content {
+    width: 45%;
+    margin-right: 40px;
+}
+
+.solo-content h1 {
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 70px;
+}
+
+.solo-content p {
+    font-size: 20px;
+    margin-block: 30px;
+    color: #4E4E4E;
+}
+
+.solo-content button {
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+    background-color: #FF0000;
+    border: 1px solid #FF0000;
+    padding: 15px 70px;
+    border-radius: 50px;
+    margin-top: 30px;
+    cursor: pointer;
+
+}
+
+/*Third*/
+.powerbeats {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 150px;
+    margin-left: 70px;
+    margin-bottom: 100px;
+}
+
+.powerbeats-content {
+    width: 42%;
+    margin-left: 150px;
+    margin-right: 70px;
+}
+
+.powerbeats-content h1 {
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 80px;
+    text-align: right;
+
+}
+
+.powerbeats-content h3 {
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 24px;
+    text-align: right;
+    margin-bottom: 70px;
+}
+
+.powerbeats-titles {
+    margin-right: 90px;
+}
+
+.powerbeats-content p {
+    font-size: 20px;
+    margin-block: 30px;
+    color: #4E4E4E;
+}
+
+.powerbeats-content button {
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+    background-color: #FF0000;
+    border: 1px solid #FF0000;
+    padding: 15px 70px;
+    border-radius: 50px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.powerbeats-bottom {
+    display: flex;
+    align-items: flex-start;
+}
+
+.powerbeats-bottom p strong {
+    text-transform: uppercase;
+    font-size: 58px;
+    color: black;
+    margin-right: 50px;
+}
+
+/*Fourth*/
+.free {
+    display: flex;
+    background-color: #575757;
+    color: white;
+    justify-content: center;
+    padding: 80px 200px;
+    text-align: center;
+}
+
+.free-content {
+    text-transform: uppercase;
+}
+
+.free-content h1 {
+    font-size: 38px;
+    font-weight: 300;
+    padding-bottom: 80px;
+}
+
+.free-content a {
+    font-size: 38px;
+    font-weight: 300;
+    border-bottom: 2px solid white;
+    font-weight: 600;
+}
+
+.free-img {
+    margin-right: 30px;
+    position: relative;
+    top: -30px;
+}
+
+/*Fifth*/
+.girl {
+    display: flex;
+}
+
+.girl-img {
+    width: 50%;
+}
+
+.girl-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.girl-content {
+    display: flex;
+    background-color: #DADADA;
+    width: 50%;
+    align-items: center;
+    padding-right: 30px;
+}
+
+.girl-titles {
+    color: #333333;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.girl-titles h1 {
+    font-size: 170px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 1.2;
+}
+
+.girl-titles h3 {
+    font-size: 60px;
+    font-weight: 300;
+
+}
+
+.girl-titles h3 strong {
+    color: #FE0909;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+.headphones-pic {
+    width: 350px;
+}
+
+footer {
+    text-align: center;
+    padding: 50px;
+    font-size: 40px;
+    color: #666666;
+}
