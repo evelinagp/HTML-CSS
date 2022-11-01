@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=PT+Serif:wght@400;700&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css');
+
+
+body {
+    font-family: 'PT Sans', 'PT Serif', sans-serif;
+
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #D01919;
+    color: white;
+    padding: 5px 50px;
+}
+
+.header-phone .phone-list {
+    display: flex;
+    list-style: none;
+}
+
+.header-phone .phone-list li {
+    display: flex;
+    list-style: none;
+
+}
+
+i {
+    padding-right: 10px;
+}
+
+li {
+    align-items: center;
+    cursor: pointer;
+}
+
+li:hover {
+    cursor: pointer;
+}
+
+.address-list {
+    display: flex;
+    list-style: none;
+    align-items: flex-start;
+}
+
+.address-list li {
+    display: flex;
+    cursor: pointer;
+
+}
+
+
+.icons-list {
+    list-style: none;
+}
+
+.icons-list .icons-list-item {
+    display: inline-block;
+
+}
+
+.hero {
+    background-image: url(image/fitness-main.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+    position: relative;
+    top: -20px;
+    z-index: -1;
+    margin: 20px auto 0;
+    padding: 15px 50px;
+    ;
+
+}
+
+.hero-list {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.hero-list-item:not(:last-child) {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    padding-right: 16px;
+}
+
+main .hero .hero-list .hero-list-item .hero-list-item-link {
+    cursor: pointer;
+
+}
+
+.hero-list-item i {
+    color: #4C5971;
+    font-size: 24px;
+
+}
+
+.hero-list-item-link {
+    text-decoration: none;
+    padding-left: 25px;
+    font-size: 14px;
+    font-weight: normal;
+    color: white;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.hero main {
+    text-align: center;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    width: 35%;
+    margin: 100px auto;
+}
+
+.hero main>* {
+    margin-bottom: 20px;
+}
+
+.hero main h1 {
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 5px;
+}
+
+.hero main p {
+    width: 90%;
+    margin: 0 auto 20px;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.hero main button {
+    background-color: #D01919;
+    border: 1px solid #D01919;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+
+.services {
+    padding-block: 30px;
+}
+
+.coaches {
+    padding-block: 30px;
+    background-color: #EFEFEF;
+}
+
+.services-content {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+
+}
+
+.services-header h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-top: 0;
+    font-weight: normal;
+    padding-bottom: 4px;
+    margin-bottom: 40px;
+}
+
+
+.services-header span {
+    border-bottom: 3px solid #D01919;
+}
+
+
+.services-content .service h3 {
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #D01919;
+    margin-bottom: 15px;
+}
+
+.services-content .service .black {
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.services-content .service h4 {
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #D01919;
+    margin-bottom: 15px;
+}
+
+.services-content .service .second-par {
+    color: #A7A3A8;
+    width: 60%;
+    margin: 0 auto 20px;
+}
+
+.services-content .service img {
+    max-width: 70px;
+    margin: 0 auto;
+
+}
+
+.services-content .service .second {
+    max-width: 270px;
+    margin: 0 auto;
+    border-radius: 10px;
+
+}
+
+.services .service {
+    text-align: center;
+    width: 25%;
+
+}
+
+.services .service div {
+    padding: 25px;
+}
+
+.services img {
+    width: 100%;
+
+}
+
+
+
+.services .service p {
+    font-size: 18px;
+    line-height: 1.2;
+}
+
+.coaches {
+    padding-block: 30px;
+    background-color: #EFEFEF;
+}
+
+footer {
+    background-color: #D01919;
+    text-align: center;
+    padding: 10px;
+}
